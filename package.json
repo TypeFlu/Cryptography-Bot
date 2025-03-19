@@ -1,0 +1,18 @@
+{
+  "name": "telegram-captcha-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with CAPTCHA verification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "svg-captcha": "^1.4.0",
+    "sharp": "^0.32.1",
+    "dotenv": "^16.0.3"
+  }
+}
